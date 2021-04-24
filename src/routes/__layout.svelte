@@ -16,7 +16,7 @@
   </ul>
 </nav>
 
-<main class="bg-amber-200 max-w-md">
+<main class="bg-amber-200 py-16">
   <slot />
 </main>
 
