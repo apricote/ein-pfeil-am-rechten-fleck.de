@@ -7,5 +7,12 @@ declare namespace paypal {
     render(selector: string): void;
   }
 
-  function Buttons(options: { createOrder: (data: unknown, actions: unknown) => unknown }): Button;
+  interface ButtonOptions {
+    createOrder: (data: unknown, actions: unknown) => unknown;
+    onApprove: (data: unknown, actions: unknown) => unknown;
+    onCancel: (data: unknown) => unknown;
+    onError: (data: unknown) => unknown;
+  }
+
+  function Buttons(options: ButtonOptions): Button;
 }
