@@ -13,7 +13,6 @@
     <NavLink href="/#heroes" text="Unsere Helden" />
     <NavLink href="/#listen" text="Hörprobe" />
     <NavLink href="/credits" text="Besetzung" />
-    <NavLink href="/buy" text="Shop" />
   </ul>
 </nav>
 
