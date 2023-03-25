@@ -1,4 +1,16 @@
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
+
+@layer base {
+  html {
+    @apply font-vinque bg-cocoa-brown-700 p-4;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Vinque";
+  src: url("vinque.ttf");
+}

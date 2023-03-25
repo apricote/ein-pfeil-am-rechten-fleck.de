@@ -11,7 +11,7 @@
   <img src={image} alt={`Grafik vom Charakter ${name}`} class="p-4" />
 
   <div>
-    <h3 class="text-xl pb-4">{name}</h3>
+    <h3 class="text-4xl pb-4 font-vinque">{name}</h3>
 
     <p>
       {description}

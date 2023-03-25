@@ -4,5 +4,5 @@
 </script>
 
 <div>
-  {role} - {actor}
+  <span>{role}</span> - <span>{actor}</span>
 </div>

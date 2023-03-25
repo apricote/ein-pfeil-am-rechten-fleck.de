@@ -3,10 +3,9 @@
   export let text: string;
 </script>
 
-<li class="block w-1/2 bg-amber-800">
+<li class="block">
   <a
-    class="text-gray-300 hover:text-amber-200 focus:text-amber-200 focus:outline-none transition"
-    alt=""
+    class="text-amber-500 hover:text-dark-burgundy-100 focus:text-dark-burgundy-100 text-xl focus:outline-none transition"
     {href}
   >
     {text}
