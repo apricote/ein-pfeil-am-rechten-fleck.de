@@ -1,5 +1,5 @@
 <script>
-  import "../app.postcss";
+  import "../app.css";
   import NavLink from "$lib/layout/NavLink.svelte";
 </script>
 

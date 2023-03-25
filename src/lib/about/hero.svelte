@@ -5,7 +5,9 @@
   export let mirrored: boolean = false;
 </script>
 
-<div class={`flex flex-col md:flex-row ${mirrored && "md:flex-row-reverse"} m-8`}>
+<div
+  class={`flex flex-col md:flex-row ${mirrored && "md:flex-row-reverse"} m-8`}
+>
   <img src={image} alt={`Grafik vom Charakter ${name}`} class="p-4" />
 
   <div>
