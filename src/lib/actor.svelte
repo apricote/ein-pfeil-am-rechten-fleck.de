@@ -3,6 +3,7 @@
   export let role: string;
 </script>
 
-<div>
-  <span>{role}</span> - <span>{actor}</span>
-</div>
+<tr>
+  <td class="font-vinque">{role}</td>
+  <td>{actor}</td>
+</tr>

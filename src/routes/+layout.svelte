@@ -1,34 +1,28 @@
 <script>
   import "../app.css";
-  import NavLink from "$lib/layout/NavLink.svelte";
 </script>
 
 <header class="flex justify-center">
-  <img
+  <a href="/">
+    <img
     height="300"
     width="300"
     alt="Logo, Illustration von einem Pfeil über einem Herz"
     src="logo.png"
-  />
+    />
+  </a>
 </header>
 
-<nav class="flex items-center justify-center">
-  <ul
-    class="p-4 w-2/3 sm:w-1/3 rounded-t-2xl bg-cocoa-brown-200 divide-y divide-cocoa-brown-700 text-center"
-  >
-    <NavLink href="/#intro" text="Einführung" />
-    <NavLink href="/#heroes" text="Unsere Helden" />
-    <NavLink href="/#listen" text="Hörprobe" />
-    <NavLink href="/credits" text="Besetzung" />
-  </ul>
-</nav>
+<div class="flex items-center justify-center">
+  <div class="w-5/6 md:w-2/3 2xl:w-1/2 bg-yellow-300 rounded-2xl">
+    <p class="font-vinque text-yellow-00 text-6xl text-center mt-12">Ein <span class="text-[4rem] relative bottom-2">P</span>feil am rechten <span class="text-red-500"><span class="text-[4rem] relative bottom-2">F</span>leck</span></p>
 
-<main class="sm:mx-16 xl:mx-72 p-4 rounded-t-2xl bg-cocoa-brown-200 font-sans">
-  <slot />
-</main>
+    <main class="p-4 font-sans">
+      <slot />
+    </main>
 
-<footer
-  class="sm:mx-16 xl:mx-72 p-4 rounded-b-2xl bg-cocoa-brown-400 text-center"
->
-  <a href="imprint" class="text-cocoa-brown-800">Impressum & Datenschutz</a>
-</footer>
+    <footer class=" p-4 bg-yellow-700 rounded-b-2xl text-center">
+      <a href="imprint" class="text-cocoa-brown-800">Impressum & Datenschutz</a>
+    </footer>
+  </div>
+</div>
