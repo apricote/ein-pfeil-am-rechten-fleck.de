@@ -1,12 +1,14 @@
 <script lang="ts">
   import Hero from "$lib/hero.svelte";
   import Actor from "$lib/actor.svelte";
-  import SectionHeading from "$lib/section-heading.svelte"
+  import H2 from "$lib/h2.svelte";
+  import H3 from "$lib/h3.svelte";
+  import MajorActor from "$lib/major-actor.svelte";
 </script>
 
 <p />
 
-<SectionHeading>Unsere Helden</SectionHeading>
+<H2>Unsere Helden</H2>
 
 <p>
   <Hero
@@ -27,34 +29,41 @@
   />
 </p>
 
-
 <p>
-  <SectionHeading>Hörprobe</SectionHeading>
+  <H2>Hörprobe</H2>
 </p>
 
-
-<SectionHeading>Besetzung</SectionHeading>
+<H2>Credits</H2>
+<H3>Besetzung</H3>
 
 <div class="flex items-center justify-evenly flex-col md:flex-row">
-  <div class="text-center text-xl"><div class="font-vinque">Beyron Ladisla</div><div>Nico Gerloff</div></div>
-  <div class="text-center text-xl"><div class="font-vinque">Blue</div><div>Lina Schmidt</div></div>
-  <div class="text-center text-xl"><div class="font-vinque">Tam</div><div>Vanessa Martens</div></div>
+  <MajorActor role="Beyron Ladisla" actor="Nico Gerloff" />
+  <MajorActor role="Blue" actor="Lina Schmidt" />
+  <MajorActor role="Tam" actor="Vanessa Martens" />
 </div>
 
-<div class="flex items-center justify-center">
+<table class="table-fixed w-full max-w-8xl my-8">
+  <Actor role="Erzähler" actor="xxx" />
+  <Actor role="Madam Jolie" actor="Josephine Steckenmesser" />
+  <Actor role="Bantam" actor="Timon Fuchs" />
+  <Actor role="Soldat Gundolf Stock" actor="Marian Falk" />
+  <Actor role="Offizier Delgado" actor="Julian Tölle" />
+  <Actor role="Die Rechte Hand des Königs" actor="Julian Tölle" />
+  <Actor role="Der König" actor="Timon Fuchs" />
+  <Actor role="Vorsitzender der Handelsgilde" actor="Nico Gerloff" />
+  <Actor role="Bruder Jotus" actor="Marius Freese" />
+  <Actor role="Schreiberling" actor="Marius Freese" />
+</table>
 
-  <table class="mt-8 text-center table-fixed xl:w-2/3 divide-cocoa-brown-400">
-    <Actor role="Erzähler" actor="xxx" />
-    <Actor role="Madam Jolie" actor="Josephine Steckenmesser" />
-    <Actor role="Bantam" actor="Timon Fuchs" />
-    <Actor role="Soldat Gundolf Stock" actor="Marian Falk" />
-    <Actor role="Offizier Delgado" actor="Julian Tölle" />
-    <Actor role="Die Rechte Hand des Königs" actor="Julian Tölle" />
-    <Actor role="Der König" actor="Timon Fuchs" />
-    <Actor role="Vorsitzender der Handelsgilde" actor="Nico Gerloff" />
-    <Actor role="Bruder Jotus" actor="Marius Freese" />
-    <Actor role="Schreiberling" actor="Marius Freese" />
-  </table>
+<H3>& weitere Credits</H3>
+
+<div class="flex items-center justify-evenly flex-col md:flex-row">
+  <MajorActor role="Drehbuch" actor="Nico Gerloff" />
+  <MajorActor role="Produzent" actor="Julian Tölle" />
 </div>
 
-<SectionHeading>Besetzung</SectionHeading>
+<table class="table-fixed w-full max-w-8xl my-8">
+  <Actor role="Recherche Soundeffekte" actor="Jay Mendes" />
+  <Actor role="Schnitt" actor="Julian Tölle" />
+  <Actor role="Website" actor="Julian Tölle" />
+</table>

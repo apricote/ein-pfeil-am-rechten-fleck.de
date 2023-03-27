@@ -3,7 +3,7 @@
 
 @layer base {
   html {
-    @apply font-vinque bg-cocoa-brown-700 text-yellow-900 p-4;
+    @apply bg-cocoa-brown-700 text-yellow-400 text-center;
   }
 }
 
