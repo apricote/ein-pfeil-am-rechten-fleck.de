@@ -27,7 +27,3 @@
     </main>
   </div>
 </div>
-
-<footer class="p-4">
-  <a href="imprint" class="">Impressum & Datenschutz</a>
-</footer>
