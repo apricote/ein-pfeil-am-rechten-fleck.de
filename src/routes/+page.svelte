@@ -4,7 +4,16 @@
   import H2 from "$lib/h2.svelte";
   import H3 from "$lib/h3.svelte";
   import MajorActor from "$lib/major-actor.svelte";
+
+  import BeyronImg from "$lib/images/beyron.png?width=192&format=webp;png&srcset";
+  import TamImg from "$lib/images/tam.png?width=192&format=webp;png&srcset";
+  import BlueImg from "$lib/images/blue.png?width=192&format=webp;png&srcset";
 </script>
+
+<svelte:head>
+  <title>Ein Pfeil am rechten Fleck</title>
+  <meta name="description" content="TODO" />
+</svelte:head>
 
 <p />
 
@@ -14,18 +23,18 @@
   <Hero
     name="Beyron Ladisla"
     description="Seit 22 Jahren Unteroffizier der Königsgarde und keine Ambitionen aufzusteigen. Beyron fühlt sich eher zum Alkohol hingezogen als zu seinem Beruf."
-    image="/beyron.png"
+    image={BeyronImg}
   />
   <Hero
     name="Tam"
     description="Nur wenigen ist Tamriel, genannt Tam, überhaupt bekannt. Fängt sie jedoch an zu sprechen offenbart sich ein kluger Kopf. Als beste Freundin und stete Begleiterin von Beyron ist sie oftmals das gute Gewissen dieser Zweierbeziehung."
-    image="/tam.png"
+    image={TamImg}
     mirrored
   />
   <Hero
     name="Blue"
     description="Ein langweiliges Leben führen wie ihre reichen Eltern? Nichts für Blue. Die weite Welt ist ein viel besserer Ort um erwachsen zu werden als ein staubiger Klassenraum."
-    image="/blue.png"
+    image={BlueImg}
   />
 </p>
 

@@ -11,9 +11,12 @@
   } m-8 my-12 items-center`}
 >
   <img
-    src={image}
+    srcset={image}
+    width="192"
+    height="192"
     alt={`Grafik vom Charakter ${name}`}
-    class="w-48 rounded-full"
+    class="w-48 rounded-full object-cover"
+    loading="lazy"
   />
 
   <div class="p-4 md:text-left {!mirrored && 'md:text-right'}">
