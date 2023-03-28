@@ -3,7 +3,7 @@
 
 @layer base {
   html {
-    @apply bg-cocoa-brown text-yellow-400 text-center;
+    @apply bg-cocoa-brown text-yellow-300 text-center;
   }
 }
 
