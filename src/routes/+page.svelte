@@ -52,7 +52,7 @@
 </div>
 
 <table class="table-fixed w-full max-w-8xl my-8">
-  <Actor role="Erzähler" actor="xxx" />
+  <Actor role="Erzähler" actor="Pascal Spielvogel" />
   <Actor role="Madam Jolie" actor="Josephine Steckenmesser" />
   <Actor role="Bantam" actor="Timon Fuchs" />
   <Actor role="Soldat Gundolf Stock" actor="Marian Falk" />
