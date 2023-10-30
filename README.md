@@ -1,18 +1,9 @@
-# create-svelte
+# ein-pfeil-am-rechten-fleck.de
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Source Code for the website about my radio play "Ein Pfeil am rechten Fleck". Built using Tailwind & SvelteKit.
+Website is at [ein-pfeil-am-rechten-fleck.de](https://ein-pfeil-am-rechten-fleck.de) (German!).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+![Logo of the Radio Play, showing a heart being pierced by an arrow](src/lib/images/logo2.png)
 
 ## Developing
 
