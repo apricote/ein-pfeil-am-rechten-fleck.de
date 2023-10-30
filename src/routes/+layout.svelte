@@ -27,5 +27,8 @@
     <main class="p-4 font-sans">
       <slot />
     </main>
+    <footer class="bt-1">
+      <a href="/impressum">Impressum & Datenschutz</a> | <a href="https://github.com/apricote/ein-pfeil-am-rechten-fleck.de">Website Source</a>
+    </footer>
   </div>
 </div>
