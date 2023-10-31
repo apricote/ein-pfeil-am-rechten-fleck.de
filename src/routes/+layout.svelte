@@ -8,6 +8,7 @@
 <svelte:head>
   <title>Ein Pfeil am rechten Fleck</title>
   <meta name="description" content="TODO" />
+  <link as="font" rel="prefetch" href="/vinque.ttf" />
 </svelte:head>
 
 <header class="flex justify-center">
