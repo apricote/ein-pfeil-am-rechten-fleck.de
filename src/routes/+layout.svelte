@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
 
-  import LogoImg from "$lib/images/logo2.png?width=512&format=webp;png&srcset";
+  import LogoImg from "$lib/images/logo.png?w=512&format=webp;png&srcset";
 </script>
 
 <header class="flex justify-center">

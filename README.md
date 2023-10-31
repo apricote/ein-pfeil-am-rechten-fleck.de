@@ -3,7 +3,7 @@
 Source Code for the website about my radio play "Ein Pfeil am rechten Fleck". Built using Tailwind & SvelteKit.
 Website is at [ein-pfeil-am-rechten-fleck.de](https://ein-pfeil-am-rechten-fleck.de) (German!).
 
-![Logo of the Radio Play, showing a heart being pierced by an arrow](src/lib/images/logo2.png)
+![Logo of the Radio Play, showing a heart being pierced by an arrow](src/lib/images/logo.png)
 
 ## Developing
 
