@@ -5,6 +5,11 @@
   import LogoImg from "$lib/images/logo.png?w=512";
 </script>
 
+<svelte:head>
+  <title>Ein Pfeil am rechten Fleck</title>
+  <meta name="description" content="TODO" />
+</svelte:head>
+
 <header class="flex justify-center">
   <a href="/">
     <Image
@@ -18,12 +23,12 @@
 
 <div class="flex items-center justify-center">
   <div class="max-w-screen-md">
-    <p class="font-vinque text-6xl mt-8">
+    <h1 class="font-vinque text-6xl mt-8">
       Ein <span class="text-[4rem] relative bottom-2">P</span>feil am rechten
       <span class="text-red"
         ><span class="text-[4rem] relative bottom-2">F</span>leck</span
       >
-    </p>
+    </h1>
 
     <main class="p-4 font-sans">
       <slot />

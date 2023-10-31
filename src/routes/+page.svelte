@@ -4,45 +4,35 @@
   import H2 from "$lib/h2.svelte";
   import H3 from "$lib/h3.svelte";
   import MajorActor from "$lib/major-actor.svelte";
+  import DownloadButton from "$lib/download-button.svelte";
 
   import BeyronImg from "$lib/images/beyron.png?w=336";
   import TamImg from "$lib/images/tam.png?w=336";
   import BlueImg from "$lib/images/blue.png?w=336";
 </script>
 
-<svelte:head>
-  <title>Ein Pfeil am rechten Fleck</title>
-  <meta name="description" content="TODO" />
-</svelte:head>
-
-<p />
-
 <H2>Unsere Helden</H2>
 
-<p>
-  <Hero
-    name="Beyron Ladisla"
-    description="Seit 22 Jahren Unteroffizier der Königsgarde und keine Ambitionen aufzusteigen. Beyron fühlt sich eher zum Alkohol hingezogen als zu seinem Beruf."
-    image={BeyronImg}
-  />
-  <Hero
-    name="Tam"
-    description="Nur wenigen ist Tamriel, genannt Tam, überhaupt bekannt. Fängt sie jedoch an zu sprechen, offenbart sich ein kluger Kopf. Als beste Freundin und stete Begleiterin von Beyron ist sie oftmals das gute Gewissen dieser Zweierbeziehung."
-    image={TamImg}
-    mirrored
-  />
-  <Hero
-    name="Blue"
-    description="Ein langweiliges Leben führen wie ihre reichen Eltern? Nichts für Blue. Die weite Welt ist ein viel besserer Ort, um erwachsen zu werden als ein staubiger Klassenraum."
-    image={BlueImg}
-  />
-</p>
+<Hero
+  name="Beyron Ladisla"
+  description="Seit 22 Jahren Unteroffizier der Königsgarde und keine Ambitionen aufzusteigen. Beyron fühlt sich eher zum Alkohol hingezogen als zu seinem Beruf."
+  image={BeyronImg}
+/>
+<Hero
+  name="Tam"
+  description="Nur wenigen ist Tamriel, genannt Tam, überhaupt bekannt. Fängt sie jedoch an zu sprechen, offenbart sich ein kluger Kopf. Als beste Freundin und stete Begleiterin von Beyron ist sie oftmals das gute Gewissen dieser Zweierbeziehung."
+  image={TamImg}
+  mirrored
+/>
+<Hero
+  name="Blue"
+  description="Ein langweiliges Leben führen wie ihre reichen Eltern? Nichts für Blue. Die weite Welt ist ein viel besserer Ort, um erwachsen zu werden als ein staubiger Klassenraum."
+  image={BlueImg}
+/>
 
-<p>
-  <H2>Hörprobe</H2>
-</p>
+<H2>Hörprobe</H2>
 
-<H2>Credits</H2>
+<H2>Würdigungen</H2>
 <H3>Besetzung</H3>
 
 <div class="flex items-center justify-evenly flex-col md:flex-row">
@@ -64,7 +54,7 @@
   <Actor role="Schreiberling" actor="Marius Freese" />
 </table>
 
-<H3>& weitere Credits</H3>
+<H3>& weitere</H3>
 
 <div class="flex items-center justify-evenly flex-col md:flex-row">
   <MajorActor role="Drehbuch" actor="Nico Gerloff" />
@@ -76,3 +66,17 @@
   <Actor role="Schnitt" actor="Julian Tölle" />
   <Actor role="Website" actor="Julian Tölle" />
 </table>
+
+<H2>Herunterladen</H2>
+
+<p class="my-8 flex items-center flex-col justify-center md:flex-row">
+  <DownloadButton href="/downloads/EinPfeilAmRechtenFleck-mp3.zip">
+    Hörspiel (mp3)
+  </DownloadButton>
+  <DownloadButton href="/downloads/EinPfeilAmRechtenFleck-flac.zip">
+    Hörspiel (FLAC)
+  </DownloadButton>
+  <DownloadButton href="/downloads/EinPfeilAmRechtenFleck-Drehbuch.pdf">
+    Drehbuch (PDF)
+  </DownloadButton>
+</p>
