@@ -5,9 +5,9 @@
   import H3 from "$lib/h3.svelte";
   import MajorActor from "$lib/major-actor.svelte";
 
-  import BeyronImg from "$lib/images/beyron.png?width=384&format=webp;png&srcset";
-  import TamImg from "$lib/images/tam.png?width=384&format=webp;png&srcset";
-  import BlueImg from "$lib/images/blue.png?width=384&format=webp;png&srcset";
+  import BeyronImg from "$lib/images/beyron.png?w=336";
+  import TamImg from "$lib/images/tam.png?w=336";
+  import BlueImg from "$lib/images/blue.png?w=336";
 </script>
 
 <svelte:head>

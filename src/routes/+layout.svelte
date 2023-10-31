@@ -1,16 +1,17 @@
 <script>
   import "../app.css";
+  import Image from "$lib/image.svelte";
 
-  import LogoImg from "$lib/images/logo.png?w=512&format=webp;png&srcset";
+  import LogoImg from "$lib/images/logo.png?w=512";
 </script>
 
 <header class="flex justify-center">
   <a href="/">
-    <img
-      height="256"
-      width="256"
+    <Image
+      height={256}
+      width={256}
       alt="Logo, Illustration von einem Pfeil über einem Herz"
-      srcset={LogoImg}
+      img={LogoImg}
     />
   </a>
 </header>

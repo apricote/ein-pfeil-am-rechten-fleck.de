@@ -1,7 +1,10 @@
 <script lang="ts">
+  import type { ImageMetadata } from "$lib/image.svelte";
+  import Image from "$lib/image.svelte";
+
   export let name: string;
   export let description: string;
-  export let image: string;
+  export let image: ImageMetadata;
   export let mirrored: boolean = false;
 </script>
 
@@ -10,12 +13,12 @@
     mirrored && "md:flex-row-reverse"
   } m-8 my-12 items-center`}
 >
-  <img
-    srcset={image}
-    width="192"
-    height="192"
-    alt={`Grafik vom Charakter ${name}`}
-    class="w-48 rounded-full object-cover"
+  <Image
+    img={image}
+    alt={`Grafik des Charakters "${name}"`}
+    className="w-48 max-w-fit rounded-full object-cover"
+    width={168}
+    height={168}
     loading="lazy"
   />
 
