@@ -67,6 +67,8 @@
   <Actor role="Website" actor="Julian Tölle" />
 </table>
 
+<DownloadButton href="/attributions">Soundeffekte</DownloadButton>
+
 <H2>Herunterladen</H2>
 
 <p class="my-8 flex items-center flex-col justify-center md:flex-row">
