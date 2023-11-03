@@ -6,10 +6,29 @@
   import MajorActor from "$lib/major-actor.svelte";
   import DownloadButton from "$lib/download-button.svelte";
 
+  import StroborImg from "$lib/images/strobor.png?w=1024";
   import BeyronImg from "$lib/images/beyron.png?w=336";
   import TamImg from "$lib/images/tam.png?w=336";
   import BlueImg from "$lib/images/blue.png?w=336";
+  import Image from "$lib/image.svelte";
 </script>
+
+<Image
+  img={StroborImg}
+  alt={`Sicht auf die Stadt`}
+  className="object-cover rounded my-8"
+  width={1024}
+  height={1024}
+  loading="lazy"
+/>
+
+<p class="text-justify">
+  In diesem Hörspiel erwartet dich eine Reise in eine mittelalterliche Welt,
+  gespickt mit einem Hauch Magie. Verfolge die Abenteuer des Unteroffiziers
+  Beyron und des neugierigen Mädchens Blue, deren Schicksale auf unerwartete
+  Weise miteinander verknüpft sind. Lass dich mitreißen von einer fesselnden
+  Erzählung voller Intrigen und überraschenden Wendungen.
+</p>
 
 <H2>Unsere Helden</H2>
 
