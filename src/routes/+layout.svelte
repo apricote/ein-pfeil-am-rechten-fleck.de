@@ -24,7 +24,7 @@
 
 <div class="flex items-center justify-center">
   <div class="max-w-screen-md">
-    <h1 class="font-vinque text-6xl mt-8">
+    <h1 class="font-vinque text-6xl mt-4">
       Ein <span class="text-[4rem] relative bottom-2">P</span>feil am rechten
       <span class="text-red"
         ><span class="text-[4rem] relative bottom-2">F</span>leck</span
