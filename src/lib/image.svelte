@@ -4,6 +4,10 @@
     src: string;
   }[];
 
+  export const getPNGSrc = (img: ImageMetadata) => {
+    return img.find(({ format }) => format === "png")?.src;
+  };
+
   const mimeType: Record<string, string> = {
     webp: "image/webp",
     png: "image/png",
@@ -23,7 +27,7 @@
     format: mimeType[format],
     srcset: src,
   }));
-  const pngSrc = sources.find(({ format }) => format === "image/png")?.srcset;
+  const pngSrc = getPNGSrc(img);
 </script>
 
 <picture class={className}>
