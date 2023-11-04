@@ -7,5 +7,5 @@
 </script>
 
 "{title}" von {author}<br />
-<a href={source}>{source}</a><br />
-Lizenz: <a href={licenseUrl}>{licenseName}</a>
+<a href={source} class="underline">{source}</a><br />
+Lizenz: <a href={licenseUrl} class="underline">{licenseName}</a>

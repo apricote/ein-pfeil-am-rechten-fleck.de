@@ -56,8 +56,10 @@
 
 <H2>Jetzt anhören</H2>
 
-<a class="underline" href="#download">Auf YouTube</a><br />
-<a class="underline" href="#download">Zum Herunterladen</a>
+<p class="my-8 flex items-center flex-col justify-center md:flex-row">
+  <a class="p-4 m-4 underline text-lg" href="#download">Auf YouTube</a><br />
+  <a class="p-4 m-4 underline text-lg" href="#download">Zum Herunterladen</a>
+</p>
 
 <Divider />
 
