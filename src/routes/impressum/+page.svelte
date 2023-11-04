@@ -3,7 +3,7 @@
     import H3 from "$lib/h3.svelte"
 </script>
 
-<H2><a href="/">&larr; Zurück zur Hauptseite</a></H2>
+<H2><a href="/" class="underline">&larr; Zurück zur Hauptseite</a></H2>
 
 <H2>Impressum</H2>
 Julian Tölle

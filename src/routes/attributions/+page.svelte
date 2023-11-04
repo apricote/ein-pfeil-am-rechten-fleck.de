@@ -4,7 +4,7 @@
   import Attribution from "./attribution.svelte";
 </script>
 
-<H2><a href="/">&larr; Zurück zur Hauptseite</a></H2>
+<H2><a href="/" class="underline">&larr; Zurück zur Hauptseite</a></H2>
 
 <H2>Attributions der Soundeffekte</H2>
 

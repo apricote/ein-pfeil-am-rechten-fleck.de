@@ -86,7 +86,7 @@
   <Actor role="Website" actor="Julian Tölle" />
 </table>
 
-<DownloadButton href="/attributions">Soundeffekte</DownloadButton>
+<H3><a href="/attributions" class="underline">Soundeffekte</a></H3>
 
 <H2>Herunterladen</H2>
 

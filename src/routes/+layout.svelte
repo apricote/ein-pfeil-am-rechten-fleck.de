@@ -35,9 +35,10 @@
       <slot />
     </main>
     <footer class="font-vinque text-lg border-t-[1px] p-8">
-      <a href="/impressum">Impressum & Datenschutz</a><br />
-      <a href="https://github.com/apricote/ein-pfeil-am-rechten-fleck.de"
-        >Source Code</a
+      <a href="/impressum" class="underline">Impressum & Datenschutz</a><br />
+      <a
+        href="https://github.com/apricote/ein-pfeil-am-rechten-fleck.de"
+        class="underline">Source Code</a
       >
     </footer>
   </div>
