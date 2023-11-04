@@ -107,8 +107,12 @@
 <H2 id="download" className="target:animate-pulse-once">Herunterladen</H2>
 
 <p class="my-8 flex items-center flex-col justify-center md:flex-row">
-  <DownloadButton href="/">Hörspiel (mp3)</DownloadButton>
-  <DownloadButton href="/">Hörspiel (FLAC)</DownloadButton>
+  <DownloadButton href="/downloads/EinPfeilAmRechtenFleck-mp3.zip"
+    >Hörspiel (mp3, 40MB)</DownloadButton
+  >
+  <DownloadButton href="/downloads/EinPfeilAmRechtenFleck-flac.zip"
+    >Hörspiel (FLAC, 300MB)</DownloadButton
+  >
   <DownloadButton href="/downloads/EinPfeilAmRechtenFleck-Drehbuch.pdf">
     Drehbuch (PDF)
   </DownloadButton>
