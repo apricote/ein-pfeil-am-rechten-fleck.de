@@ -17,8 +17,8 @@
   img={StroborImg}
   alt={`Sicht auf die Stadt`}
   className="object-cover rounded my-8"
-  width={1024}
-  height={1024}
+  width={740}
+  height={422}
   loading="lazy"
 />
 
