@@ -11,6 +11,7 @@
   import TamImg from "$lib/images/tam.png?w=336";
   import BlueImg from "$lib/images/blue.png?w=336";
   import Image from "$lib/image.svelte";
+  import Divider from "$lib/divider.svelte";
 </script>
 
 <Image
@@ -29,6 +30,8 @@
   Weise miteinander verknüpft sind. Lass dich mitreißen von einer fesselnden
   Erzählung voller Intrigen und überraschenden Wendungen.
 </p>
+
+<Divider />
 
 <H2>Unsere Helden</H2>
 
@@ -49,7 +52,14 @@
   image={BlueImg}
 />
 
-<H2>Hörprobe</H2>
+<Divider />
+
+<H2>Jetzt anhören</H2>
+
+<a class="underline" href="#download">Auf YouTube</a><br />
+<a class="underline" href="#download">Zum Herunterladen</a>
+
+<Divider />
 
 <H2>Würdigungen</H2>
 <H3>Besetzung</H3>
@@ -88,7 +98,9 @@
 
 <H3><a href="/attributions" class="underline">Soundeffekte</a></H3>
 
-<H2>Herunterladen</H2>
+<Divider />
+
+<H2 id="download">Herunterladen</H2>
 
 <p class="my-8 flex items-center flex-col justify-center md:flex-row">
   <DownloadButton href="/">Hörspiel (mp3)</DownloadButton>

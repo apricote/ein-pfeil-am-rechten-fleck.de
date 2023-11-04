@@ -1,6 +1,7 @@
 <script>
   import "../app.css";
   import Image from "$lib/image.svelte";
+  import Divider from "$lib/divider.svelte";
 
   import LogoImg from "$lib/images/logo.png?w=512";
 </script>
@@ -34,7 +35,8 @@
     <main class="p-4 font-sans">
       <slot />
     </main>
-    <footer class="font-vinque text-lg border-t-[1px] p-8">
+    <Divider />
+    <footer class="font-vinque text-lg p-8">
       <a href="/impressum" class="underline">Impressum & Datenschutz</a><br />
       <a
         href="https://github.com/apricote/ein-pfeil-am-rechten-fleck.de"
