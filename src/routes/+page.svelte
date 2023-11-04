@@ -100,7 +100,7 @@
 
 <Divider />
 
-<H2 id="download">Herunterladen</H2>
+<H2 id="download" className="target:animate-pulse-once">Herunterladen</H2>
 
 <p class="my-8 flex items-center flex-col justify-center md:flex-row">
   <DownloadButton href="/">Hörspiel (mp3)</DownloadButton>
